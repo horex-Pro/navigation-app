@@ -1,0 +1,100 @@
+@media only screen and (max-width:450px){
+    .content-box{
+        margin-bottom: 20px;
+    }
+    main{
+        width: 90%;
+        height: 140vh;
+        margin: 3% 5%;
+    }
+    .navbar{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content:flex-start;
+    }
+    .navbar .left-part{
+        width: 20%;
+        display: flex;
+        justify-content: start;
+        margin-top: 10px;
+        transform: scale(0.5);
+    }
+    .navbar .center-part{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content:flex-start;
+        margin-top:5px;
+        margin-left:-10px;
+        transform: scale(0.8);
+    }
+    .navbar .right-part{
+        width:10%;
+        display: flex;
+        justify-content:space-between;
+    }
+    .navbar .center-part .search-box{
+        width: 60%;
+        display: flex;
+        justify-content:flex-start;
+        margin-bottom: 7px;
+        border-radius: 10px;
+    }
+    .navbar .center-part .search-box input{
+        border-radius: 10px;
+    }
+    .navbar .center-part i.fa-search{
+        margin-top: 6px;
+        margin-left: -20px;
+    }
+    .content{
+        width: 100%;
+        margin: 10px;
+    }
+    .content .top-part{
+        display:block;
+    }
+    .content .top-part .right-part{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 125%;
+        right:0;
+        width:100%;
+
+    }
+    .main-section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section .right-part{
+        display: block;
+        width: 100%;
+    }
+    .main-section .left-part{
+        display: block;
+        width:100%;
+    }
+    .main-section .left-part .title{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: start;
+    }
+    .main-section .right-part img{
+        margin-top: 50px;
+        width:95%;
+    }
+    .main-section .left-part .music-player-box{
+        width: 90%;
+        padding: 10px;
+        font-size: small;
+        margin-left: 8px;
+    }
+    .content .top-part .right-part .links {
+        transform: scale(0.7);
+    }
+}
